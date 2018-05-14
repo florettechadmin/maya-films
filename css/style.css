@@ -1,0 +1,418 @@
+/*
+Theme Name: Maya 2016
+Author: Cordial Infosolutions
+Author URI: https://cordialinfo.com/
+Description: Maya Films 2016 theme by Cordial Infosolutions
+*/
+
+* {
+	/*font-family: 'Open Sans', sans-serif;*/
+	font-family: 'Roboto Condensed', sans-serif;
+}
+html, body {
+	padding: 0;
+	margin: 0;	
+	overflow-x: hidden;
+}
+body {
+	font-weight: 400;
+	font-size: 13px;
+}
+@media (min-width: 768px) {
+	body {
+		font-size: 14px;
+	}
+}
+@media (min-width: 992px) {
+	body {
+		font-size: 15px;
+	}
+}
+@media (min-width: 1200px) {
+	body {
+		font-size: 16px;
+	}
+}
+a {
+	text-decoration: none;
+	color: inherit;
+	-webkit-transition: color 0.25s;
+	-moz-transition: color 0.25s;
+	-ie-transition: color 0.25s;
+	-o-transition: color 0.25s;
+	transition: color 0.25s;
+}
+a:hover {
+	text-decoration: none;
+}
+a.anchor1 {
+	color: #d63938;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 400;
+	margin-top: 0;
+	margin-bottom: 1em;
+}
+a.magnific-popup-image {
+	position: relative;
+	display: inline-block;
+}
+.img-responsive {
+	margin: 0 auto;
+}
+.red {
+	color: #da3833;
+}
+.scrollreveal {
+	visibility: hidden;
+}
+span.scrollreveal {
+	display: inline-block;
+}
+section.padded-top {
+	padding-top: 10em;
+}
+section.padded-bottom {
+	padding-bottom: 7em;
+}
+p.padded-top {
+	padding-top: 3em;
+}
+p.padded-bottom {
+	padding-bottom: 3em;
+}
+.container.padded {
+	padding-top: 4em;
+	padding-bottom: 3em;
+}
+header .container.padded {
+	padding-top: 2em;
+	padding-bottom: 1em;
+}
+header .header-desktop table {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+}
+header .header-desktop .link {
+	width: 13.33333333%;
+}
+header .header-desktop .logo {
+	width: 20%;
+}
+header .header-desktop .logo img {
+	width: 100%;
+	max-width: 8em;
+	height: auto;
+}
+
+header .header-tablet {
+	display: none;
+}
+@media (min-width: 480px) {
+	header .header-tablet {
+		display: block;
+	}
+}
+header .header-tablet ul, header .header-tablet ul li {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+header .header-tablet ul {
+	padding-top: 1em;
+	display: block;
+}
+header .header-tablet ul li {
+	float: left;
+}
+header .header-tablet .link {
+	float: left;
+	width: 16.66666667%;
+}
+header .header-mobile {
+	display: block;
+	top: 1em;
+	left: 0;
+	right: 0;
+}
+@media (min-width: 480px) {
+	header .header-mobile {
+		display: none;
+	}
+}
+header .header-mobile .logo {
+	float: left;
+	margin-left: 1em;
+	height: 6em;
+}
+header .header-mobile .logo img {
+	width: auto;
+	height: 100%;
+}
+header .header-mobile .menu {
+	float: right;
+	margin-right: 1em;
+	font-size: 3em;
+	line-height: 1.5em;
+}
+header .header-mobile nav ul, header .header-mobile nav li {
+	list-style: none;
+	padding: 0;
+	font-size: 1.2em;
+}
+
+header a {
+	color: black;
+}
+header a:hover, header a.selected {
+	color: #d63938;
+}
+footer {
+	background-color: #f2f2f2;
+}
+footer ul, footer ul li {
+	margin: 0;
+	margin-bottom: 1em;
+	padding: 0;
+	list-style: none;
+}
+footer .social a {
+	position: relative;
+	display: inline-block;
+	margin: 0 4px;
+	width: 30px;
+	height: 30px;
+	padding: 4px;
+	font-size: 1.6em;
+	background-color: #dbdbdd;
+	border-radius: 4px;
+}
+footer .social a span {
+	position: absolute;
+	left: 4px;
+	top: 4px;
+	right: 4px;
+	bottom: 4px;
+	width: 26px;
+	height: 26px;
+	text-align: center;
+}
+footer .social .fa-facebook {
+	color: #1e5691;
+}
+footer .social .fa-vimeo {
+	color: #00b8ea;
+}
+footer .social .fa-youtube {
+	color: #ec3031;
+}
+footer .social.text-right {
+	text-align: left;
+}
+@media (min-width: 992px) {
+	footer .social.text-right {
+		text-align: right;
+	}
+}
+footer .copyright {
+	margin-top: 2em;
+}
+
+.content {
+	background-image: url(../images/bg.png);
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: 100% auto;
+}
+
+section h1 {
+	font-size: 2.5em;
+}
+section h2 {
+	font-size: 2em;
+}
+@media (min-width: 768px) {
+	section h1 {
+		font-size: 3em;
+	}
+	section h2 {
+		font-size: 2.5em;
+	}
+}
+#loader {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	background-color: rgba(0, 0, 0, 0.9);
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+`}
+
+.slider .slider-pane-fixed {
+	height: auto;
+	overflow: hidden;
+}
+.slider .slider-pane {
+	position: relative;
+}
+.slider .slides {
+	float: left;
+	padding: 0 15px;
+}
+.slider .arrow {
+	position: relative;
+	cursor: pointer;
+	opacity: 0.5;
+	-webkit-transition: opacity 0.25s;
+	-moz-transition: opacity 0.25s;
+	-ie-transition: opacity 0.25s;
+	-o-transition: opacity 0.25s;
+	transition: opacity 0.25s;
+}
+.slider .arrow:hover {
+	opacity: 1;
+}
+.slider .arrow img {
+	position: relative;
+	display: block;
+	top: 4em;
+}
+.slider .arrow .img-responsive {
+	width: 100%;
+}
+.slider .img-responsive {
+	width: 100%;
+}
+
+#categories-pagination span {
+	display: block;
+	width: 100%;
+	color: #999;
+	cursor: pointer;
+	padding: 0.25em 0;
+}
+@media (min-width: 768px) {
+	#categories-pagination span {
+		height: 2em;
+		line-height: 2em;
+	}
+}
+#categories-pagination span:hover, #categories-pagination span.selected {
+	color: black;
+}
+#categories-pagination .category {
+	float: left;
+	width: 100%;
+}
+
+.home .quote h2 {
+	position: relative;
+	display: inline-block;
+	margin-bottom: 0.5em;
+	padding-bottom: 0.5em;
+}
+.home .quote h2:after {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	content: " ";
+	background-color: #da3833;
+	height: 1px;
+	width: 80%;
+}
+.home .quote.padded-top {
+	padding-bottom: 7em;
+}
+.home .quote.padded-bottom {
+	padding-bottom: 3em;
+}
+.home .team .slider .padded {
+	padding: 0 20%;
+}
+.home .team .slider h6 {
+	font-size: 1em;
+	margin-top: 3em;
+}
+.works .categories {
+	padding-bottom: 2em;
+	overflow: hidden;
+}
+.works .categories .slider {
+	width: 100%;
+}
+@media (min-width: 768px) {
+	.works .categories .slider {
+		height: 2em;
+	}
+}
+.works .categories-slider {
+	padding-top: 3em;
+	padding-bottom: 4em;
+}
+.works .categories-content .set {
+	display: none;
+}
+.testimonials-authors article {
+	margin-bottom: 2em;
+}
+.testimonials-authors .testimonials-quote .fa {
+	color: #bcbec0;
+	font-size: 8em;
+}
+.testimonials-authors .testimonials-quote {
+	margin-bottom: 3em;
+}
+.testimonials-authors article:after {
+	display: block;
+	content: " ";
+	background-color: #bcbec0;
+	width: 60%;
+	height: 1px;
+	margin: 0 auto;
+	margin-top: 3em;
+	margin-bottom: 3em;
+}
+.credits .slider {
+	padding-top: 3em;
+	padding-bottom: 4em;
+}
+.media .slider {
+	padding-top: 3em;
+	padding-bottom: 4em;
+}
+.contact .form .form-group {
+	margin-top: 3em;
+	margin-bottom: 2em;
+}
+.contact .form .form-group label {
+	font-weight: 400;
+}
+.contact .form .form-group .form-control {
+	border-radius: 0;
+	border-style: solid 1px #c9c9c9;
+}
+.contact .form .form-group textarea.form-control {
+	height: 8em;
+	max-height: 8em;
+	min-height: 8em;
+	max-width: 100%;
+	min-width: 100%;
+	resize: none;
+}
+.contact .form .form-group .btn {
+	width: 100%;
+	max-width: 10em;
+	color: white;
+	background-color: #da3833;
+	border-radius: 0;
+}
+#googleMaps {
+	height: 320px;
+	margin-top: 2em;
+	margin-bottom: 8em;
+}
